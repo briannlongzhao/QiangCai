@@ -31,10 +31,10 @@ def play_voice(content):
     """
     播放声音提醒
     """
-    from playsound import playsound
+    '''from playsound import playsound
     root_path = os.getcwd()
     video_path = os.path.join(root_path, "sources", "videos", f"{content}.mp3")
-    threading.Thread(target=playsound, args=(video_path,)).start()
+    threading.Thread(target=playsound, args=(video_path,)).start()'''
 
 
 def qiang_cai(device_name):
@@ -131,5 +131,5 @@ def run(device_name):
 
 if __name__ == '__main__':
     # 这是叮咚抢菜，此处填设备编号
-    device_name = "RFCN309ABWX"
+    device_name = "8KE0219606027677"
     run(device_name)
